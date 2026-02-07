@@ -248,7 +248,7 @@ const projects = [
 
 
     name: "dashboard bois decore",
-    description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+    description: "Development of a complete application for dashboard backoffice to managed Decorna site web",
 
     tags: [
       {
@@ -276,7 +276,7 @@ const projects = [
 
 
     name: "dashboard design",
-    description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+    description: "Development of a complete application for Decorna web site to  make clients watch our design and contact us",
 
     tags: [
       {
@@ -301,7 +301,7 @@ const projects = [
 
 
     name: "dashboard design",
-    description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+    description: "Development of a complete application for e - commerce dashboard  to manage raja club athlitic named raja shop calls",
 
     tags: [
       {

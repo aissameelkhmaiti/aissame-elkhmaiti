@@ -48,6 +48,8 @@ import incident2 from "./incident2.jpg";
 import towcabuss from "./2cabuss.png";
 import rajashop from "./rajashop (2).png";
 import dashboardRajashop from "./dashboardRajashop.png"
+import storeBois from "./bois-store.png"
+import DashboardBois from "./bois-dashboard.png"
 
 export {
   logo,
@@ -99,5 +101,7 @@ export {
   towcabuss,
   rajashop,
   dashboardRajashop,
+  DashboardBois,
+  storeBois,
  
 };

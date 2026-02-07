@@ -44,6 +44,8 @@ import {
   towcabuss,
   rajashop,
   dashboardRajashop,
+  DashboardBois,
+  storeBois,
 
 
 
@@ -242,6 +244,58 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+
+
+    name: "dashboard bois decore",
+    description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+
+    tags: [
+      {
+        name: "React",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScrpt",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Materiel UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: DashboardBois,
+    source_code_link: "https://github.com/aissameelkhmaiti/bois-decoration.git",
+  },
+    {
+
+
+    name: "dashboard design",
+    description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+
+    tags: [
+      {
+        name: "Next",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: storeBois,
+    source_code_link: "https://github.com/aissameelkhmaiti/bois-decoration.git",
+  },
 
   {
 
@@ -251,21 +305,25 @@ const projects = [
 
     tags: [
       {
-        name: "Figma",
+        name: "React",
         color: "red-text-gradient",
       },
       {
-        name: "Tabler icons",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
 
       {
-        name: "Charts",
+        name: "ShadCn",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
     image: dashboardRajashop,
-    source_code_link: "https://rajashop.vercel.app",
+    source_code_link: "https://github.com/aissameelkhmaiti/raja-shop-backoffice.git",
   },
   {
 

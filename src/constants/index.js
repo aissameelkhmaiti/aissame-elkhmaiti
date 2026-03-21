@@ -276,7 +276,7 @@ const projects = [
       },
     ],
     image: datapip,
-    source_code_link: "https://github.com/aissameelkhmaiti/bois-decoration.git",
+    source_code_link: "https://github.com/aissameelkhmaiti/data-pipeline-app",
   },
     {
 

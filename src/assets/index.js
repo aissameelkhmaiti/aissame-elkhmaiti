@@ -50,6 +50,7 @@ import rajashop from "./rajashop (2).png";
 import dashboardRajashop from "./dashboardRajashop.png"
 import storeBois from "./bois-store.png"
 import DashboardBois from "./bois-dashboard.png"
+import datapip from "./datapip.png"
 
 export {
   logo,
@@ -103,5 +104,6 @@ export {
   dashboardRajashop,
   DashboardBois,
   storeBois,
+  datapip
  
 };

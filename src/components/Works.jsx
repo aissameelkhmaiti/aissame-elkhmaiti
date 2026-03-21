@@ -1,5 +1,5 @@
 import React from "react";
-import { Tilt } from "react-tilt"; 
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -28,7 +28,7 @@ const fadeIn = (delay = 0) => ({
     transition: {
       type: "spring",
       duration: 0.75,
-      delay,
+      delay:0.2,
     },
   },
 });
@@ -54,9 +54,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl w-full h-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full   bg-black/20 rounded-2xl flex items-center justify-center overflow-hidden'>
           <img
             src={image}
             alt='project_image'
@@ -65,7 +65,7 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-all'
             >
               <img
                 src={github}
@@ -99,18 +99,18 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-     <motion.div
-  variants={textVariant}
-  initial="hidden"
-  whileInView="show"
-  viewport={{ once: true, amount: 0.3 }}
-  className="mb-10"
->
-  <p className={`${styles.sectionSubText}`}>My work</p>
-  <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-</motion.div>
+      <motion.div
+        variants={textVariant}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.3 }}
+        className="mb-10"
+      >
+        <p className={`${styles.sectionSubText}`}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      </motion.div>
 
-      <div className='mt-20 flex flex-wrap gap-6'>
+      <div className='mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

@@ -46,6 +46,7 @@ import {
   dashboardRajashop,
   DashboardBois,
   storeBois,
+  datapip
 
 
 
@@ -159,12 +160,13 @@ const technologies = [
 ];
 
 const experiences = [
+  
   {
     title: "Full Stack Developer",
     company_name: "2CA BUSINESS",
     icon: towcabuss,
     iconBg: "#E6DEDD",
-    date: "January 2025 - December 2025",
+    date: "January 2025 - January 2026",
     points: [
       "Design and development of full-stack applications using React, Vue 3, and Tailwind CSS",
       "Development of Laravel and Node.js backends with secure RESTful APIs",
@@ -244,6 +246,38 @@ const testimonials = [
 ];
 
 const projects = [
+      {
+
+
+    name: "data pipline manager",
+    description: "Development of a complete application for dashboardto manage the upload and transforme and insert data to database ",
+
+    tags: [
+      {
+        name: "Node",
+        color: "red-text-gradient",
+      },
+      {
+        name: "React",
+        color: "red-text-gradient",
+      },
+      {
+        name: "PostgeSql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: datapip,
+    source_code_link: "https://github.com/aissameelkhmaiti/bois-decoration.git",
+  },
     {
 
 

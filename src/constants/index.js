@@ -46,7 +46,8 @@ import {
   dashboardRajashop,
   DashboardBois,
   storeBois,
-  datapip
+  datapip,
+  productManager
 
 
 
@@ -246,6 +247,36 @@ const testimonials = [
 ];
 
 const projects = [
+
+     {
+
+
+    name: "Products Manager",
+    description: "Development of a complete application for Products manager with authentification automatic symfony",
+
+    tags: [
+      {
+        name: "Symfony",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Twig",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+
+       
+    ],
+    image: productManager,
+    source_code_link: "https://github.com/aissameelkhmaiti/products-manager-auth-symfony-twig",
+  },
       {
 
 
@@ -309,7 +340,7 @@ const projects = [
     {
 
 
-    name: "dashboard design",
+    name: "Site Vitrine Decoration Bois",
     description: "Development of a complete application for Decorna web site to  make clients watch our design and contact us",
 
     tags: [
@@ -334,7 +365,7 @@ const projects = [
   {
 
 
-    name: "dashboard design",
+    name: "dashboard design raja shop",
     description: "Development of a complete application for e - commerce dashboard  to manage raja club athlitic named raja shop calls",
 
     tags: [
